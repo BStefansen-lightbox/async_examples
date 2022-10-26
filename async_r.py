@@ -19,7 +19,7 @@ async def main(num):
         print(results)
 
 start_time = time.time()
-asyncio.run(main(6))
+asyncio.run(main(15))
 print(f"Duration: {time.time() - start_time}")
 
 
